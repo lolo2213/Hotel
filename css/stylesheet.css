@@ -1,0 +1,184 @@
+.first h6
+{
+    background-color: rgb(180, 180, 180);
+    color: white;
+    font-size: smaller;
+}
+
+.first-icon1
+{
+    color: rgb(255, 187, 0);
+    font-size: small;
+}
+
+.first button
+{
+    color: white;
+}
+
+.first-icon2
+{
+    font-size:large;
+    color: rgb(112, 112, 240);
+}
+
+.second i
+{
+    border: 2px rgb(100, 148, 236) solid;
+    border-radius: 50%;
+}
+
+.second h6
+{
+    background-color: rgb(220, 242, 252);
+    color: black;
+}
+
+.third
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.third .part1{
+    display: inline;
+    padding: 5px 0px;
+}
+
+.third h6
+{
+    background-color: white;
+    color: black;
+    display: inline;
+}
+
+.third i
+{
+    color: blue;
+}
+
+.all
+{
+    width: 100%;
+    display: flex;
+    justify-content:left;
+}
+
+.caption1
+{
+    width: 40%;
+    display: inline;
+}
+.caption1 img
+{
+    width: 100%;
+    height: 26vh;
+}
+
+.caption2 
+{
+    width: 60%;
+}
+
+.caption2 img
+{
+    width: 100%;
+    height: 55vh;
+}
+
+.caption3
+{
+    width: 100%;
+    display: flex;
+}
+
+.caption3 img
+{
+    width: 100%;
+}
+
+.note i
+{
+    color: brown;
+}
+
+.note h6
+{
+    background-color: white;
+    color: brown;
+    font-weight: bold;
+}
+
+.explian h6
+{
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+
+.note1 
+{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.note1 h6
+{
+    color: rgb(1, 1, 200);
+    font-weight: normal;
+}
+
+.note1 a
+{
+    font-weight: bold;
+    color: blue;
+}
+
+.expand h6
+{
+    color: black;
+    background-color: white;
+    font-size: large;
+}
+
+.note2 p
+{
+    color: green;
+    font-weight: bold;
+}
+
+.expand1 h6
+{
+    color: black;
+    background-color: white;
+    font-size: small;
+    font-weight: lighter;
+    margin-right: 0.5rem;
+}
+
+.expand1 i
+{
+    color: green;
+    margin-right: 0.3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (min-width: 500px) and (max-width: 844px)
+{
+  .caption3 img
+  {
+      margin-bottom: 1rem;
+  }
+
+} 
